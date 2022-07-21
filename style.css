@@ -1,0 +1,209 @@
+
+body
+{
+    background-color: hsl(30, 38%, 92%);
+    min-height: 100vh;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    min-width: 650px;
+}
+main
+{
+ 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 1440px;
+    flex-grow: 1;
+
+}
+
+#container
+{
+    width: 600px;
+    height:500px;
+}
+.img
+{
+    float:left;
+    background-image:url("images/image-product-desktop.jpg");
+    background-size: 300px 500px;
+    width: 300px;
+    height:500px; 
+    border-radius:15px 0px 0px 15px;
+    margin:auto;
+}
+
+#content
+{
+    font-family: 'Montserrat', sans-serif;
+    float: left;
+    width: 240px;
+    height:440px;
+    background-color: hsl(0, 0%, 100%);
+    border-radius:0px 15px 15px 0px;
+    padding:30px 30px;
+}
+p
+{
+    color:hsl(228, 12%, 48%);
+    
+    line-height:25px;
+}
+h
+{
+    letter-spacing:4px;
+    font-size:14px;
+    font-weight:500;
+    text-align:left;
+    color:hsl(228, 12%, 48%);
+    
+}
+h1
+{
+    font-family: 'Fraunces', serif;
+    font-weight: 700;
+    text-align: justify;
+    font-size: 30px;
+    font-style:normal;
+    
+}
+span
+{
+    font-family: 'Fraunces', serif;
+    font-weight:700;
+    font-size:35px;
+    line-height:80px;
+    color:hsl(158, 36%, 37%);
+}
+sup
+{
+    text-decoration:line-through;
+    font-size:15px;
+    padding:25px;
+    color:hsl(228, 12%, 48%);
+}
+
+button
+{
+    background-color: hsl(158, 36%, 37%);
+	font-size: 14px;
+    font-weight: 700;
+    width:240px;
+	color: hsl(0, 0%, 100%);
+	padding: 15px 10px;
+	border: none;
+	border-radius: 10px;
+	cursor: pointer;
+	outline: none;
+	margin-top: 20px;
+    
+}
+button svg
+{
+    
+   margin-right: 20px;
+   vertical-align: middle;
+}
+button:hover
+{
+    background-color: hsl(158, 49%, 19%);
+}
+
+@media screen and (max-width: 500px)
+{
+    body
+{
+    min-height: 90vh;
+}
+#container
+{
+    width: 325px;
+    height:600px;
+}
+
+
+.img
+{ 
+    background-image:url("images/image-product-mobile.jpg");
+    background-size: 345px 240px;
+    width: 345px;
+    height:240px; 
+    border-radius:15px 15px 0px 0px;
+    margin:auto;
+}
+
+#content
+{
+    font-family: 'Montserrat', sans-serif;
+    width: 315px;
+    height:320px;
+    background-color: hsl(0, 0%, 100%);
+    border-radius:0px 0px 15px 15px;
+    padding:15px 15px;
+}
+h
+{
+    letter-spacing:4px;
+    font-size:14px;
+    font-weight:500;
+    text-align:left;
+    color:hsl(228, 12%, 48%);
+}
+h1
+{
+    font-family: 'Fraunces', serif;
+    font-weight: 700;
+    text-align: left;
+    font-size: 30px;
+}
+p
+{
+    color:hsl(228, 12%, 48%);
+    font-size: 14px;
+    line-height:20px;
+    text-align: left;
+}
+span
+{
+    font-family: 'Fraunces', serif;
+    font-weight:700;
+    font-size:25px;
+    line-height:60px;
+    color:hsl(158, 36%, 37%);
+}
+sup
+{
+    text-decoration:line-through;
+    font-size:14px;
+    color:hsl(228, 12%, 48%);
+}
+button
+{
+    background-color: hsl(158, 36%, 37%);
+	font-size: 14px;
+    font-weight: 700;
+    width:320px;
+	color: hsl(0, 0%, 100%);
+	padding: 15px 10px;
+	border: none;
+	border-radius: 10px;
+	cursor: pointer;
+	outline: none;
+	margin-top: 10px;
+}
+button svg
+{
+   margin-right: 20px;
+   vertical-align: middle;
+}
+button:hover
+{
+    background-color: hsl(158, 49%, 19%);
+}
+
+}
