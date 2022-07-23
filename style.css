@@ -116,13 +116,15 @@ button:hover
 
 @media screen and (max-width: 500px)
 {
-    body
-{
-    min-height: 90vh;
-}
+
+ body
+ {
+    min-width: 375px;
+ }
+
 #container
 {
-    width: 325px;
+    width: 345px;
     height:600px;
 }
 
